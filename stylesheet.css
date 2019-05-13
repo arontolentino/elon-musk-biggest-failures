@@ -57,3 +57,28 @@ footer {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 17px;
+    }
+
+    #img-div {
+        padding: 0;
+    }
+
+    #img-div figure {
+        margin: 16px 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #main {
+        padding: 15px;
+        margin: 15px 15px;
+    }
+
+    #tribute-info {
+        padding: 15px 15px;
+    }
+}
