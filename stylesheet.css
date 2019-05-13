@@ -46,7 +46,7 @@ body {
 #image {
     display: block;
     margin: 0 auto;
-    max-width: 120%;
+    max-width: 100%;
     border: 0px solid;
     border-radius: 5px; 
 }
